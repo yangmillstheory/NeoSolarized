@@ -899,7 +899,7 @@ let g:terminal_color_15 = s:gui_base3
 autocmd GUIEnter * if (has('gui_running')) | exe "colorscheme " . g:colors_name | endif
 "}}}
 
-" python "{{{
+" python (needs https://github.com/vim-python/python-syntax)"{{{
 exe "hi! pythonSelf" .s:fg_base1 .s:bg_back .s:fmt_bold
 exe "hi! pythonDottedName" .s:fg_base1 .s:bg_back .s:fmt_ital
 exe "hi! pythonDot" .s:fg_base1 .s:bg_back .s:fmt_bold
