@@ -909,7 +909,7 @@ exe "hi! pythonOperator" .s:fg_magenta .s:bg_back .s:fmt_none
 exe "hi! pythonNumber" .s:fg_red .s:bg_back .s:fmt_none
 exe "hi! pythonString" .s:fg_yellow .s:bg_back .s:fmt_none
 exe "hi! pythonRawString" .s:fg_yellow .s:bg_back .s:fmt_none
-exe "hi! pythonStatement" .s:fg_cyan .s:bg_back .s:fmt_bold
+exe "hi! pythonStatement" .s:fg_base1 .s:bg_back .s:fmt_bold
 exe "hi! pythonConditional" .s:fg_magenta .s:bg_back .s:fmt_none
 exe "hi! pythonRepeat" .s:fg_magenta .s:bg_back .s:fmt_none
 exe "hi! pythonExClass" .s:fg_magenta .s:bg_back .s:fmt_ital
@@ -918,7 +918,7 @@ exe "hi! pythonSpaceError" .s:fg_base1 .s:bg_orange .s:fmt_none
 exe "hi! pythonDecorator" .s:fg_base2 .s:bg_back .s:fmt_ital
 exe "hi! pythonInclude" .s:fg_yellow .s:bg_back .s:fmt_ital
 exe "hi! pythonDoctest" .s:fg_base01 .s:bg_back .s:fmt_none
-exe "hi! pythonFunction" .s:fg_orange .s:bg_back .s:fmt_bold
+exe "hi! pythonFunction" .s:fg_orange .s:bg_back .s:fmt_none
 exe "hi! pythonBoolean" .s:fg_yellow .s:bg_back .s:fmt_none
 """}}}
 
