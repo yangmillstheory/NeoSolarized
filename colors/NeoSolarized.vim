@@ -899,6 +899,29 @@ let g:terminal_color_15 = s:gui_base3
 autocmd GUIEnter * if (has('gui_running')) | exe "colorscheme " . g:colors_name | endif
 "}}}
 
+" python "{{{
+exe "hi! pythonSelf" .s:fg_base1 .s:bg_back .s:fmt_bold
+exe "hi! pythonDottedName" .s:fg_base1 .s:bg_back .s:fmt_ital
+exe "hi! pythonDot" .s:fg_base1 .s:bg_back .s:fmt_bold
+exe "hi! pythonBuiltin" .s:fg_green .s:bg_back .s:fmt_none
+exe "hi! pythonBuiltinFunc" .s:fg_blue .s:bg_back .s:fmt_ital
+exe "hi! pythonOperator" .s:fg_magenta .s:bg_back .s:fmt_bold
+exe "hi! pythonNumber" .s:fg_red .s:bg_back .s:fmt_none
+exe "hi! pythonString" .s:fg_yellow .s:bg_back .s:fmt_none
+exe "hi! pythonRawString" .s:fg_yellow .s:bg_back .s:fmt_none
+exe "hi! pythonStatement" .s:fg_cyan .s:bg_back .s:fmt_bold
+exe "hi! pythonConditional" .s:fg_magenta .s:bg_back .s:fmt_bold
+exe "hi! pythonRepeat" .s:fg_magenta .s:bg_back .s:fmt_bold
+exe "hi! pythonExClass" .s:fg_magenta .s:bg_back .s:fmt_ital
+exe "hi! pythonSpaceError" .s:fg_base1 .s:bg_orange .s:fmt_none
+" (activate this ^ in python.vim by: let python_space_error_highlight = 1)
+exe "hi! pythonDecorator" .s:fg_base2 .s:bg_back .s:fmt_ital
+exe "hi! pythonInclude" .s:fg_yellow .s:bg_back .s:fmt_ital
+exe "hi! pythonDoctest" .s:fg_base01 .s:bg_back .s:fmt_none
+exe "hi! pythonFunction" .s:fg_orange .s:bg_back .s:fmt_bold
+exe "hi! pythonBoolean" .s:fg_yellow .s:bg_back .s:fmt_bold
+"""}}}
+
 " License "{{{
 " ---------------------------------------------------------------------
 "
