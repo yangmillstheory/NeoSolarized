@@ -905,14 +905,15 @@ exe "hi! pythonName" .s:fg_base1 .s:bg_none .s:fmt_none
 exe "hi! pythonDefine" .s:fg_base1 .s:bg_none .s:fmt_undr
 exe "hi! pythonDot" .s:fg_base1 .s:bg_none .s:fmt_bold
 exe "hi! pythonBuiltin" .s:fg_green .s:bg_none .s:fmt_bldi
+exe "hi! pythonPreProc" .s:fg_base1 .s:bg_none .s:fmt_undb
 exe "hi! pythonOperator" .s:fg_magenta .s:bg_none .s:fmt_bold
-exe "hi! pythonNumber" .s:fg_red .s:bg_none .s:fmt_none
+exe "hi! pythonNumber" .s:fg_base1 .s:bg_none .s:fmt_none
 exe "hi! pythonString" .s:fg_green .s:bg_none .s:fmt_none
 exe "hi! pythonRawString" .s:fg_green .s:bg_none .s:fmt_none
 exe "hi! pythonStatement" .s:fg_base1 .s:bg_none .s:fmt_undb
 exe "hi! pythonConditional" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonRepeat" .s:fg_magenta .s:bg_none .s:fmt_bold
-exe "hi! pythonExClass" .s:fg_magenta .s:bg_none .s:fmt_ital
+exe "hi! pythonExClass" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonClass" .s:fg_yellow .s:bg_none .s:fmt_bold
 exe "hi! pythonSpaceError" .s:fg_base1 .s:bg_orange .s:fmt_none
 " (activate this ^ in python.vim by: let python_space_error_highlight = 1)
@@ -920,10 +921,10 @@ exe "hi! pythonDecorator" .s:fg_base2 .s:bg_none .s:fmt_ital
 exe "hi! pythonInclude" .s:fg_yellow .s:bg_none .s:fmt_ital
 exe "hi! pythonDoctest" .s:fg_base01 .s:bg_none .s:fmt_none
 exe "hi! pythonFunction" .s:fg_orange .s:bg_none .s:fmt_undr
-exe "hi! pythonCallable" .s:fg_orange .s:bg_none .s:fmt_undr
-exe "hi! pythonBoolean" .s:fg_yellow .s:bg_none .s:fmt_bold
-exe "hi! pythonBuiltinFunc" .s:fg_blue .s:bg_none .s:fmt_ital
-exe "hi! pythonBuiltinObj" .s:fg_yellow .s:bg_none .s:fmt_ital
+exe "hi! pythonCallable" .s:fg_orange .s:bg_none .s:fmt_undb
+exe "hi! pythonBoolean" .s:fg_green .s:bg_none .s:fmt_bold
+exe "hi! pythonBuiltinFunc" .s:fg_blue .s:bg_none .s:fmt_bold
+exe "hi! pythonBuiltinObj" .s:fg_yellow .s:bg_none .s:fmt_bold
 """}}}
 
 " License "{{{
