@@ -902,20 +902,21 @@ autocmd GUIEnter * if (has('gui_running')) | exe "colorscheme " . g:colors_name 
 " python (needs https://github.com/yangmillstheory/vim-python)"{{{
 exe "hi! pythonSelf" .s:fg_yellow .s:bg_none .s:fmt_bold
 exe "hi! pythonName" .s:fg_base1 .s:bg_none .s:fmt_none
-exe "hi! pythonDefine" .s:fg_base1 .s:bg_none .s:fmt_undr
+exe "hi! pythonDefine" .s:fg_base1 .s:bg_none .s:fmt_bold
 exe "hi! pythonDot" .s:fg_base1 .s:bg_none .s:fmt_bold
 exe "hi! pythonBuiltin" .s:fg_green .s:bg_none .s:fmt_bldi
-exe "hi! pythonPreProc" .s:fg_base2 .s:bg_none .s:fmt_undb
+exe "hi! pythonPreProc" .s:fg_base2 .s:bg_none .s:fmt_bold
 exe "hi! pythonOperator" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonNumber" .s:fg_base1 .s:bg_none .s:fmt_none
 exe "hi! pythonString" .s:fg_green .s:bg_none .s:fmt_none
 exe "hi! pythonRawString" .s:fg_green .s:bg_none .s:fmt_none
-exe "hi! pythonStatement" .s:fg_base2 .s:bg_none .s:fmt_undb
+exe "hi! pythonStatement" .s:fg_base2 .s:bg_none .s:fmt_bold
 exe "hi! pythonConditional" .s:fg_magenta .s:bg_none .s:fmt_bold
+exe "hi! pythonOperator" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonRepeat" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonExClass" .s:fg_red .s:bg_none .s:fmt_bold
 exe "hi! pythonException" .s:fg_yellow .s:bg_none .s:fmt_bold
-exe "hi! pythonClass" .s:fg_yellow .s:bg_none .s:fmt_bold
+exe "hi! pythonClass" .s:fg_orange .s:bg_none .s:fmt_bold
 exe "hi! pythonSpaceError" .s:fg_base1 .s:bg_orange .s:fmt_none
 exe "hi! pythonKwarg" .s:fg_cyan .s:bg_none .s:fmt_ital
 exe "hi! pythonDelimiter" .s:fg_cyan .s:bg_none .s:fmt_bold
@@ -923,10 +924,10 @@ exe "hi! pythonDelimiter" .s:fg_cyan .s:bg_none .s:fmt_bold
 exe "hi! pythonDecorator" .s:fg_base2 .s:bg_none .s:fmt_ital
 exe "hi! pythonInclude" .s:fg_yellow .s:bg_none .s:fmt_ital
 exe "hi! pythonDoctest" .s:fg_base01 .s:bg_none .s:fmt_none
-exe "hi! pythonFunction" .s:fg_orange .s:bg_none .s:fmt_undb
-exe "hi! pythonCallable" .s:fg_orange .s:bg_none .s:fmt_undr
+exe "hi! pythonFunction" .s:fg_orange .s:bg_none .s:fmt_undr
+exe "hi! pythonCallable" .s:fg_orange .s:bg_none .s:fmt_none
 exe "hi! pythonBoolean" .s:fg_green .s:bg_none .s:fmt_bold
-exe "hi! pythonBuiltinFunc" .s:fg_orange .s:bg_none .s:fmt_undb
+exe "hi! pythonBuiltinFunc" .s:fg_green .s:bg_none .s:fmt_bold
 exe "hi! pythonBuiltinObj" .s:fg_yellow .s:bg_none .s:fmt_bold
 """}}}
 
