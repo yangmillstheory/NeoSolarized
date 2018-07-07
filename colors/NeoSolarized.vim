@@ -910,7 +910,7 @@ exe "hi! pythonOperator" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonNumber" .s:fg_base1 .s:bg_none .s:fmt_none
 exe "hi! pythonString" .s:fg_green .s:bg_none .s:fmt_none
 exe "hi! pythonRawString" .s:fg_green .s:bg_none .s:fmt_none
-exe "hi! pythonStatement" .s:fg_base2 .s:bg_none .s:fmt_bold
+exe "hi! pythonStatement" .s:fg_base1 .s:bg_none .s:fmt_bold
 exe "hi! pythonConditional" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonOperator" .s:fg_magenta .s:bg_none .s:fmt_bold
 exe "hi! pythonRepeat" .s:fg_magenta .s:bg_none .s:fmt_bold
