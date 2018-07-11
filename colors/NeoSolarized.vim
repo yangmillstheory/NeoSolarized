@@ -907,7 +907,7 @@ exe "hi! pythonDot" .s:fg_base1 .s:bg_none .s:fmt_bold
 exe "hi! pythonBuiltin" .s:fg_green .s:bg_none .s:fmt_bldi
 exe "hi! pythonPreProc" .s:fg_base1 .s:bg_none .s:fmt_bold
 exe "hi! pythonOperator" .s:fg_magenta .s:bg_none .s:fmt_bold
-exe "hi! pythonNumber" .s:fg_base1 .s:bg_none .s:fmt_none
+exe "hi! pythonNumber" .s:fg_violet .s:bg_none .s:fmt_none
 exe "hi! pythonString" .s:fg_green .s:bg_none .s:fmt_none
 exe "hi! pythonRawString" .s:fg_green .s:bg_none .s:fmt_none
 exe "hi! pythonStatement" .s:fg_base1 .s:bg_none .s:fmt_bold
