@@ -925,7 +925,7 @@ exe "hi! pythonDecorator" .s:fg_base2 .s:bg_none .s:fmt_ital
 exe "hi! pythonInclude" .s:fg_yellow .s:bg_none .s:fmt_ital
 exe "hi! pythonDoctest" .s:fg_base01 .s:bg_none .s:fmt_none
 exe "hi! pythonFunction" .s:fg_orange .s:bg_none .s:fmt_undr
-exe "hi! pythonCallable" .s:fg_orange .s:bg_none .s:fmt_ital
+exe "hi! pythonCallable" .s:fg_orange .s:bg_none .s:fmt_undr
 exe "hi! pythonBoolean" .s:fg_green .s:bg_none .s:fmt_bold
 exe "hi! pythonBuiltinFunc" .s:fg_green .s:bg_none .s:fmt_bold
 exe "hi! pythonBuiltinObj" .s:fg_yellow .s:bg_none .s:fmt_bold
