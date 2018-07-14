@@ -919,7 +919,7 @@ exe "hi! pythonException" .s:fg_yellow .s:bg_none .s:fmt_bold
 exe "hi! pythonClass" .s:fg_orange .s:bg_none .s:fmt_bold
 exe "hi! pythonSpaceError" .s:fg_base1 .s:bg_orange .s:fmt_none
 exe "hi! pythonKwarg" .s:fg_cyan .s:bg_none .s:fmt_ital
-exe "hi! pythonDelimiter" .s:fg_cyan .s:bg_none .s:fmt_bold
+exe "hi! pythonDelimiter" .s:fg_cyan .s:bg_none .s:fmt_none
 " (activate this ^ in python.vim by: let python_space_error_highlight = 1)
 exe "hi! pythonDecorator" .s:fg_base2 .s:bg_none .s:fmt_ital
 exe "hi! pythonInclude" .s:fg_yellow .s:bg_none .s:fmt_ital
